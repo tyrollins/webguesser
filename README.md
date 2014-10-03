@@ -1,1 +1,1 @@
-Sinatra Practice - Webguesser
+Sinatra Practice - Guess the number.
