@@ -4,9 +4,9 @@ require 'sinatra/reloader'
 number = rand(100)
 
 def check_guess(guess, number)
-  if number > guess
+  if number < guess
     'Too high!'
-  elsif number < guess
+  elsif number > guess
     'Too low!'
   else
     "Got it!"
